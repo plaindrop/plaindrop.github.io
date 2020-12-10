@@ -1,0 +1,134 @@
+* { box-sizing: border-box;
+    
+}
+
+body { background-color:#af181c;
+        margin: 0;
+        padding: 0;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+}
+
+.banner{ background-image: url(homebanner1.png);
+         background-repeat: no-repeat;
+         height: 180px;
+         background-position: left;
+
+}
+
+.title { color: #ffd700;
+         text-align: center;
+         padding-top: 50px;
+         font-size: 50px;
+         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+}
+
+header { background-color: #033758;
+
+}
+
+
+
+#wrapper{ width: 90%;
+          margin-left: auto;
+          margin-right: auto;
+          max-width: 1600px;
+          min-width: 1200px;      
+            
+}
+
+#container { display: flex;
+            flex-direction: row;
+            
+}
+
+nav { flex: 3;
+      margin-top: 10px;
+    
+           
+}
+
+.space { background-color: #033758;
+        margin-top: 10px;
+        margin-bottom: 0px;
+  
+
+}
+
+main { flex: 7;
+       margin-top: 10px;
+       margin-left: 10px;
+
+}
+
+.slogan { color: #ffd700;
+          text-align: right;
+          margin-top: 250px;
+          margin-right:25px;
+
+}
+
+
+nav ul { list-style-type: none;
+         margin: 0;
+         padding: 0;
+
+}
+
+nav a { background-color: #033758;
+        color: #ffffff;
+        text-decoration: none;
+        border-bottom: 1px solid #000000;
+        display: block;
+        padding: 15px;
+        width: 330px;
+               
+}
+
+
+
+
+nav a:hover { color: #000000;
+              background-color: #ffd700; 
+              
+
+}
+
+
+
+footer { background-color: #033758;
+        text-align: center;
+        color: #ffffff;
+        margin-top: 10px;
+        padding: 2px;
+        margin-bottom: 15px;
+       
+}
+
+
+footer ul { list-style-type: none;
+                
+        
+
+}
+
+footer li { display: inline-block;
+            
+                
+
+}
+
+footer a { text-decoration: none;
+          width: 90px;
+          margin: 25px;
+          color: white;
+
+}
+
+footer a:hover { color: #000000;
+        background-color: #ffd700; 
+        padding: 10px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+        
+}

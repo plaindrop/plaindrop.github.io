@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="acglogo.png" type="image/ico">
+    <link rel="stylesheet" href="censorship.css">
+    <title>Survey</title>
+    <style>
+        main { background-color: #ffffff;
+
+        }
+        
+        main h2{ background-color: #033758;
+                 color: #ffffff;
+                 text-align: center;
+
+        }
+
+        .float_right { float: right;
+                        margin-right: 113px;
+                        margin-left: 14px;
+                        margin-bottom: em;
+
+        }
+
+        main h3{margin-left: 2em;
+                
+        }
+        
+        figure{ border: 2px solid #033758;
+                padding: 14px;
+                box-shadow: 5px 5px 5px #000000;
+            
+
+
+        }
+        figcaption{ text-align: center;
+                    font-style: italic;
+
+        }
+        
+        fieldset { margin-bottom: 30px;
+                    border: 2px solid #033758;
+                    width: 700px;
+
+        }
+        
+        form { margin: 30px;
+                overflow: auto;
+                    
+
+        }
+        legend{ font-weight: bold;
+                border: 2px solid #033758;
+                background-color: #033758;
+                color: #ffffff;
+
+                
+
+        }
+
+        .scale label, .dropmenu label { font-weight: bold;
+
+        }
+        
+
+        .age_range label, .check label, .dropmenu label, .scale label{ display: block;
+
+        }
+
+        .scale{ margin-top: 15px;
+
+        }
+        .submit_reset input{ margin-top: 15px;
+            background-color: #033758;
+                              font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                              font-weight: bold;
+                              color: #ffd700;
+                              border: 2px solid #000000;
+                              font-size: 15px;
+                              padding: 10px;
+                              border-radius: 4px;
+                              width: 100px;          
+        }
+
+        footer { clear: both;
+
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <div class="banner">
+                <h1 class="title">China's Media Censorship</h1>
+            </div>
+        </header> 
+        
+        <div id="container">
+            <div class="space">
+                <nav>   
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="whatiscensorship.html">What is Censorship?</a></li>
+                        <li><a href="chinascensorship.html">China's Censorship</a></li>
+                        <li><a href="aboutus.html">About Us</a></li>
+                        <li><a href="survey.html">Survey</a></li>
+                        <li><a href="reportcensorship.html">Report Censorship</a></li>
+                        <li><a href="sitemap.html">Sitemap & References</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <main role="main">
+                <h2>Survey</h2>
+                <figure class="float_right">
+                    <img src="surveyicon.png" alt="Image of a stop censorship sign" width="300" height="500">
+                    <figcaption>Image Credit: kissclipart.com</figcaption>
+                </figure>
+                <h3>Please Take This Short Survey on Censorship</h3>
+                
+                
+                <form method="post" action="https://webdevbasics.net/scripts/demo.php">
+                    <fieldset class="age_range">
+                        <legend>What is your age?</legend>
+                        <div>
+                            <label><input type="radio" name="age" id="18-24" value="18-24">18-24</label>
+                            <label><input type="radio" name="age" id="25-34" value="25-34">25-34</label>
+                            <label><input type="radio" name="age" id="35-44" value="Amazon Music">35-44</label>
+                            <label><input type="radio" name="age" id="35-44" value="45-54">45-54</label>
+                            <label><input type="radio" name="age" id="55-64" value="55-64">55-64</label>
+                            <label><input type="radio" name="age" id="65 or Older" value="65 or Older">65 or Older</label>
+                        </div>
+                    </fieldset>
+                    
+                    <fieldset>
+                        <legend>What do you think are the most common forms of censorship?</legend>
+                        <div class="check">
+                            <label><input type="checkbox" name="Self-censorship" id="Self-censorship" value= "yes">Self-censorship</label>
+                            <label><input type="checkbox" name="Online censorship" id="Online censorship" value= "yes">Online censorship</label>
+                            <label><input type="checkbox" name="Censoring freedom of speech" id="Censoring freedom of speech" value= "yes">Censoring freedom of speech</label>
+                            <label><input type="checkbox" name="Withdral of information" id="Withdral of information" value= "yes">Withdral of information</label>
+                            <label><input type="checkbox" name="Physical censorship" id="Physical censorship" value= "yes">Physical censorship (removal of a citizen)</label>
+
+                        </div>
+                    </fieldset>
+                    
+                    <div class="dropmenu">
+                        <label for="menu">Should the interent have a censor to find out what is said on the internet?</label>
+                        <select size="1" name="menu" id="menu">
+                            <option value="Yes">Yes</option>
+                            <option value="No">No</option>
+                            <option value="I don't know">I don't know</option>
+                        </select>
+                    </div>
+
+                    <div class="scale">
+                        <label for="myRating">On a scale from 1-5, how free do you feel expressing your thoughts on the internet?</label>
+                        <input type="range" name="myRating" id="myRating" min="1" max="5">
+                    </div>
+
+                    <div class="submit_reset">
+                        <input type="submit" id="mySubmit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </div>
+                </form>
+                
+                
+            </main>
+
+        </div>
+        <footer for="footernavagation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="whatiscensorship.html">What is Censorship?</a></li>
+                <li><a href="chinascensorship.html">China's Censorship</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="survey.html">Survey</a></li>
+                <li><a href="reportcensorship.html">Report Censorship</a></li>
+                <li><a href="sitemap.html">Sitemap & References</a></li>
+            </ul>
+            &copy; 2020 ACG - All rights reserved
+        </footer>
+          
+    </div>
+    
+</body>
+</html>

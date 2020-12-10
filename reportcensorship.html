@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Report Censorship</title>
+    <link rel="stylesheet" href="censorship.css">
+    <link rel="icon" href="acglogo.png" type="image/ico">
+    <style>
+      
+       .float_right{ float: right;
+                     margin-right: 50px;
+                     margin-top: 90px;
+                    
+
+        }
+        figure{ border: 5px solid #033758;
+                padding: 14px;
+                box-shadow: 5px 5px 5px #000000;
+            
+
+
+        }
+        figcaption{ text-align: center;
+                    font-style: italic;
+
+        }
+
+        main{ background-color: #ffffff;
+
+        }
+        
+        main h2 { background-color: #033758;
+                  color: #ffffff;
+                  text-align: center;
+
+        }
+      
+        form { margin-left: 15px;
+               margin-top: 15px;
+               
+
+        }
+
+        legend { background-color: #033758;
+                 font-weight: bold;
+                 color: #ffffff;
+                 font-size: large;
+
+        }
+
+        
+        fieldset { border: 5px solid #033758 ;
+                    width: 125px;
+                    box-shadow: 5px 5px 5px #000000;
+        }
+        
+        textarea { display: block;
+                
+        }
+        
+        input { margin-bottom: 15px;
+
+        }
+        
+        textarea { resize: none;
+        
+        }
+        
+        .submit_reset input{ margin-top: 15px;
+                             background-color: #033758;
+                             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                             font-weight: bold;
+                             color: #ffd700;
+                             border: 2px solid #000000;
+                             font-size: 15px;
+                             padding: 10px;
+                             border-radius: 4px;
+                             width: 100px;          
+        }
+      
+    .error { font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+             font-style: italic;
+             font-size: .90em;
+             color: #ff0000; 
+            
+    }
+    </style>
+     <script src="httpS://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" ></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.16.0/jquery.validate.js"></script>
+     <script>
+        $(document).ready(function(){
+            $('form').validate();
+        });
+    </script>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <div class="banner">
+                <h1 class="title">China's Media Censorship</h1>
+            </div>
+        </header> 
+        
+        <div id="container">
+            <div class="space">
+                <nav>   
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="whatiscensorship.html">What is Censorship?</a></li>
+                        <li><a href="chinascensorship.html">China's Censorship</a></li>
+                        <li><a href="aboutus.html">About Us</a></li>
+                        <li><a href="survey.html">Survey</a></li>
+                        <li><a href="reportcensorship.html">Report Censorship</a></li>
+                        <li><a href="sitemap.html">Sitemap & References</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <main role="main">
+                <h2>Report Censorship</h2>
+                <figure class="float_right">
+                    <img src="stopcensorship.png" alt="Stop Censorship Sign" width="400" height="200">
+                    <figcaption>Image Credit: seczine.com</figcaption>
+                </figure>
+                <h3>Help Us Fight Censorship</h3>
+                <form method="post" action="https://webdevbasics.net/scripts/demo.php">
+                    <fieldset class="name_email">
+                        <legend>Report Censorship</legend>
+                        <div>
+                            <label for="userName">*Name:</label>
+                            <input type="text" name="userName" id="userName" placeholder="Enter Name" class="required"  >
+                        </div>
+                        <div>
+                            <label for="userEmail">*E-mail:</label>
+                            <input type="text" name="userEmail" id="userEmail" placeholder="Enter E-mail" class="required email" >
+                        </div>
+                        <div>
+                          <label for="userPhone">Phone:</label>
+                          <input type="text" name="userPhone" id="userPhone" placeholder="Enter Phone">
+                        </div>
+                        <div>
+                            <label for="freeAnswer">Describe the incident of censorship and where it occurred:</label>
+                            <textarea name="freeAnswer" id="freeAnswer" cols="90" rows="10" placeholder="Enter Comment" re></textarea>
+                        </div>
+                    </fieldset>
+                    
+                    <div class="submit_reset">
+                        <input type="submit" id="mySubmit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </div>
+                </form>
+                
+            </main>
+           
+
+        </div>
+        <footer>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="whatiscensorship.html">What is Censorship?</a></li>
+                <li><a href="chinascensorship.html">China's Censorship</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="survey.html">Survey</a></li>
+                <li><a href="reportcensorship.html">Report Censorship</a></li>
+                <li><a href="sitemap.html">Sitemap & References</a></li>
+            </ul>
+            &copy; 2020 ACG - All rights reserved
+        </footer>
+    </div>
+  
+    
+</body>
+</html>
